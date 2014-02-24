@@ -5,7 +5,7 @@ public class Dominio {
 		this.dominio = dominio;
 	}
 
-	public Site AvaliaDominio() {
+	public Site avaliaDominio() {
 		if (dominio == "buscape")
 			return new Buscape();
 		if (dominio == "bondfaro")

@@ -8,21 +8,21 @@ public class DominioTest {
 		Dominio dominio = new Dominio("buscape");
 
 		Assert.assertEquals("http://www.buscape.com.br", dominio
-				.AvaliaDominio().Dominio());
+				.avaliaDominio().Dominio());
 	}
 
 	@Test
 	public void deveRetornarParametroBuscape() {
 		Dominio dominio = new Dominio("buscape");
 
-		Assert.assertEquals("p", dominio.AvaliaDominio().Parametro());
+		Assert.assertEquals("p", dominio.avaliaDominio().Parametro());
 	}
 
 	@Test
 	public void deveRetornarCookie() {
 		Dominio dominio = new Dominio("buscape");
 
-		Assert.assertEquals("bp", dominio.AvaliaDominio().Cookie());
+		Assert.assertEquals("bp", dominio.avaliaDominio().Cookie());
 	}
 
 }
