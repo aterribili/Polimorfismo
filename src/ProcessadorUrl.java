@@ -1,7 +1,7 @@
-public class Dominio {
+public class ProcessadorUrl {
 	private String dominio;
 
-	public Dominio(String dominio) {
+	public ProcessadorUrl(String dominio) {
 		this.dominio = dominio;
 	}
 
